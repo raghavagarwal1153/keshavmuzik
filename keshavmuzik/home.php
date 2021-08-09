@@ -69,7 +69,7 @@ $result=mysqli_query($conn,$sql);
 
 while($songarr = mysqli_fetch_assoc($result)) {
         echo "<p onclick='myfun(".$songarr['id'].")'>". $songarr['title']."   ".$songarr['artist']."</p></br></br>";
-        //chutiya code echo '<button type="button" name="back" onclick="myfun('.($songarr['id']-1).')">back</button> <button type="button" name="next">next</button>';
+        // code echo '<button type="button" name="back" onclick="myfun('.($songarr['id']-1).')">back</button> <button type="button" name="next">next</button>';
   }
 ?>
 
